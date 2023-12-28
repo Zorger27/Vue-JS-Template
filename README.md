@@ -27,11 +27,7 @@ npm run serve
 npm run build
 ```
 
-[//]: # ()
-[//]: # (### Clone repository)
-
-[//]: # (```)
-
-[//]: # (git clone https://github.com/Zorger27/Vue-Start-template.git YOUR-PROJECT-NAME)
-
-[//]: # (```)
+### Clone repository
+```
+git clone https://github.com/Zorger27/Vue-JS-Template YOUR-PROJECT-NAME
+```

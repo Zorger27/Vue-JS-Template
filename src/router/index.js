@@ -37,6 +37,7 @@ const routes = [
       ]
     }
   },
+
   {
     path: '/project2',
     name: 'project2',

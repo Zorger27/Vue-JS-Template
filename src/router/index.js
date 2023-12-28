@@ -21,14 +21,14 @@ const routes = [
           property: 'og:description',
           content: 'Project № 1'
         },
-        // {
-        //   property: 'og:image',
-        //   content: 'https://vue-start-template.vercel.app/assets/ogimage/image_all.jpg'
-        // },
-        // {
-        //   property: 'og:url',
-        //   content: 'https://vue-start-template.vercel.app'
-        // },
+        {
+          property: 'og:image',
+          content: 'https://vue-template-js.vercel.app/assets/ogimage/image_all.jpg'
+        },
+        {
+          property: 'og:url',
+          content: 'https://vue-template-js.vercel.app'
+        },
         {
           property: 'og:type',
           content: 'website'
@@ -52,14 +52,14 @@ const routes = [
           property: 'og:description',
           content: 'Project № 2'
         },
-        // {
-        //   property: 'og:image',
-        //   content: 'https://vue-start-template.vercel.app/assets/ogimage/image_all.jpg'
-        // },
-        // {
-        //   property: 'og:url',
-        //   content: 'https://vue-start-template.vercel.app'
-        // },
+        {
+          property: 'og:image',
+          content: 'https://vue-template-js.vercel.app/assets/ogimage/image_all.jpg'
+        },
+        {
+          property: 'og:url',
+          content: 'https://vue-template-js.vercel.app'
+        },
         {
           property: 'og:type',
           content: 'website'
@@ -82,14 +82,14 @@ const routes = [
           property: 'og:description',
           content: 'Project № 3'
         },
-        // {
-        //   property: 'og:image',
-        //   content: 'https://vue-start-template.vercel.app/assets/ogimage/image_all.jpg'
-        // },
-        // {
-        //   property: 'og:url',
-        //   content: 'https://vue-start-template.vercel.app'
-        // },
+        {
+          property: 'og:image',
+          content: 'https://vue-template-js.vercel.app/assets/ogimage/image_all.jpg'
+        },
+        {
+          property: 'og:url',
+          content: 'https://vue-template-js.vercel.app'
+        },
         {
           property: 'og:type',
           content: 'website'
@@ -112,14 +112,14 @@ const routes = [
           property: 'og:description',
           content: 'About this project'
         },
-        // {
-        //   property: 'og:image',
-        //   content: 'https://vue-start-template.vercel.app/assets/ogimage/image_all.jpg'
-        // },
-        // {
-        //   property: 'og:url',
-        //   content: 'https://vue-start-template.vercel.app'
-        // },
+        {
+          property: 'og:image',
+          content: 'https://vue-template-js.vercel.app/assets/ogimage/image_all.jpg'
+        },
+        {
+          property: 'og:url',
+          content: 'https://vue-template-js.vercel.app'
+        },
         {
           property: 'og:type',
           content: 'website'
@@ -142,14 +142,14 @@ const routes = [
           property: 'og:description',
           content: 'Page NOT Found'
         },
-        // {
-        //   property: 'og:image',
-        //   content: 'https://vue-start-template.vercel.app/assets/ogimage/image_all.jpg'
-        // },
-        // {
-        //   property: 'og:url',
-        //   content: 'https://vue-start-template.vercel.app'
-        // },
+        {
+          property: 'og:image',
+          content: 'https://vue-template-js.vercel.app/assets/ogimage/image_all.jpg'
+        },
+        {
+          property: 'og:url',
+          content: 'https://vue-template-js.vercel.app'
+        },
         {
           property: 'og:type',
           content: 'website'

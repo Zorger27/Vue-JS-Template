@@ -172,13 +172,21 @@ router.beforeEach((to, from, next) => {
   // Этот код позволяет управлять заголовками страниц и мета-тегами при навигации между маршрутами.
   // Он также удаляет и очищает устаревшие мета-теги, которые были добавлены при предыдущих навигациях,
   // чтобы избежать конфликтов и обеспечить корректное обновление мета-информации на каждой странице.
-
   // Находим ближайший маршрут с метаданными 'title'.
-  const nearestWithTitle = to.matched.slice().reverse().find(r => r.meta && r.meta.title);
+  const nearestWithTitle = to.matched.slice().reverse().find(r => {
+    const {title} = r.meta;
+    return r.meta && title;
+  });
   // Находим ближайший маршрут с метаданными 'metaTags'
-  const nearestWithMeta = to.matched.slice().reverse().find(r => r.meta && r.meta.metaTags);
+  const nearestWithMeta = to.matched.slice().reverse().find(r => {
+    const {metaTags} = r.meta;
+    return r.meta && metaTags;
+  });
   // Находим ближайший маршрут с метаданными 'metaTags' у предыдущего маршрута
-  const previousNearestWithMeta = from.matched.slice().reverse().find(r => r.meta && r.meta.metaTags);
+  const previousNearestWithMeta = from.matched.slice().reverse().find(r => {
+    const {metaTags} = r.meta;
+    return r.meta && metaTags;
+  });
 
   // Если маршрут с заголовком был найден, устанавливает заголовок документа (страницы) в это значение.
   if(nearestWithTitle) {

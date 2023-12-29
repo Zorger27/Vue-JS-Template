@@ -57,14 +57,14 @@ module.exports = {
         metas: [
           // {attributes: {name: 'google-site-verification', content: 'Gq9vrXtN91P1JteGFo-xrlLKT0PR8u-4P4xs21oUr8Y'}},
           {attributes: {name: 'description', content: 'Vue.js template with JavaScript'}},
-          // {attributes: {property: 'og:title', content: 'Template №2'}},
+          {attributes: {property: 'og:title', content: 'Template №2'}},
           {attributes: {property: 'twitter:title', content: 'Template №2'}},
-          // {attributes: {property: 'og:description', content: 'Vue.js template with JavaScript'}},
+          {attributes: {property: 'og:description', content: 'Vue.js template with JavaScript'}},
           {attributes: {property: 'twitter:description', content: 'Vue.js template with JavaScript'}},
-          // {attributes: {property: 'og:image', content: 'https://vue-template-js.vercel.app/assets/ogimage/image_all.jpg'}},
+          {attributes: {property: 'og:image', content: 'https://vue-template-js.vercel.app/assets/ogimage/image_all.jpg'}},
           {attributes: {property: 'twitter:image', content: 'https://vue-template-js.vercel.app/assets/ogimage/image_all.jpg'}},
-          // {attributes: {property: 'og:url', content: 'https://vue-template-js.vercel.app'}},
-          // {attributes: {property: 'og:type', content: 'website'}},
+          {attributes: {property: 'og:url', content: 'https://vue-template-js.vercel.app'}},
+          {attributes: {property: 'og:type', content: 'website'}},
           {attributes: {property: 'twitter:card', content: 'summary_large_image'}}
         ]
       }),

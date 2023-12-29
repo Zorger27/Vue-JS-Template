@@ -48,14 +48,14 @@ module.exports = {
         //   },
         // ],
         // scripts: [
-          // 'https://www.googletagmanager.com/gtag/js?id=G-RZHR947YVN',
+          // 'https://www.googletagmanager.com/gtag/js?id=G-RVMP917YXN',
           // '/assets/analytics/ganal.js'
         // ],
         append: true,
         publicPath: false,
         useHash: false,
         metas: [
-          // {attributes: {name: 'google-site-verification', content: 'Gq9vrXtN91P1JteGFo-xrlLKT0PR8u-4P4xs21oUr8Y'}},
+          // {attributes: {name: 'google-site-verification', content: 'Gq7vrXtN91P1JtoGFo-xrlLMT0PR8u-4P4xs21oRr8Y'}},
           {attributes: {name: 'description', content: 'Vue.js template with JavaScript'}},
           {attributes: {property: 'og:title', content: 'Template №2'}},
           {attributes: {property: 'twitter:title', content: 'Template №2'}},

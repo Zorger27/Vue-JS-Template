@@ -15,7 +15,7 @@ const state = {
       },
       {
         id: 3,
-        title: "Vuex",
+        title: "VueX",
         version: "4.1.0",
         url: "https://vuex.vuejs.org"
       },
@@ -45,24 +45,18 @@ const state = {
       },
       {
         id: 8,
-        title: "Grid CSS",
-        version: "",
-        url: "https://developer.mozilla.org/ru/docs/Web/CSS/CSS_Grid_Layout"
-      },
-      {
-        id: 9,
         title: "JavaScript",
         version: "",
         url: "https://developer.mozilla.org/ru/docs/Learn/JavaScript"
       },
       {
-        id: 10,
+        id: 9,
         title: "Google Search Console",
         version: "",
         url: "https://search.google.com/search-console"
       },
       {
-        id: 11,
+        id: 10,
         title: "Google Analytics",
         version: "4.0",
         url: "https://analytics.google.com"

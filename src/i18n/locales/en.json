@@ -29,10 +29,10 @@
     "disc": "Description"
   },
   "about": {
-    "title": "My Projects",
+    "title": "My JavaScript Projects",
     "more01": "More information...",
-    "more02": "This project provides an opportunity... etc.",
-    "more03": "All this became possible thanks to the use of...",
+    "more02": "Це початковий шаблон для розробки на Vue.js + JavaScript з інтернаціоналізацією, маршрутизаторами та сховищем.",
+    "more03": "Підготовлений для підключення до Google Analytics і Google Search Console. Шаблон налаштований і оптимізований для технології PWA (Progressive Web App).",
     "more04": "There are a LOT of interesting things here! \uD83D\uDE09\uD83E\uDD13",
     "more05": "Welcome! \uD83E\uDD29\uD83D\uDE0E",
     "technologies": "Technologies",

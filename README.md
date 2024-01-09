@@ -6,7 +6,7 @@
 ![Screen](https://github.com/Zorger27/Vue-JS-Template/assets/30940416/b227d7aa-15b7-4da6-b9de-e11f4dee5d45)
 <br>
 
-+ This is the Starter Development Template on Vue.js with **internationalization**, **routers** and **store**.<br>
++ This is the Starter Development Template on Vue.js + JavaScript with **internationalization**, **routers** and **store**.<br>
 + Prepared for connection to **_Google Analytics_** and **_Google Search Console_**.<br>
 + The template is customized and optimized for **PWA** (`Progressive Web App`) technology.<br>
 + Main settings have to made in the ``vue.config.js`` file!<br>

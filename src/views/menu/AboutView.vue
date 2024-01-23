@@ -17,9 +17,9 @@ export default {
     };
   },
   mounted() {
-    const title = 'About this Project';
-    const metaDescription = 'Template №2';
-    const description = 'About this Project';
+    const title = 'About this JS Project';
+    const metaDescription = 'Vue.js template with JavaScript';
+    const description = 'About this JS Project';
     const imageUrl = 'https://vue-template-js.vercel.app/assets/ogimage/bmp/about.jpg';
     const url = 'https://vue-template-js.vercel.app/about';
 

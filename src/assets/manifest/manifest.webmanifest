@@ -1,6 +1,6 @@
 {
-  "name": "Template №2",
-  "short_name": "Template №2",
+  "name": "JS Template",
+  "short_name": "JS Template",
   "theme_color": "#4DBA87",
   "start_url": "/",
   "display": "standalone",

@@ -9,7 +9,7 @@ module.exports = {
       entry: 'src/main.js',
       template: 'public/index.html',
       filename: 'index.html',
-      title: 'Template №2',
+      title: 'JS Template',
     }
   },
   pwa: {
@@ -57,8 +57,8 @@ module.exports = {
         metas: [
           // {attributes: {name: 'google-site-verification', content: 'Gq7vrXtN91P1JtoGFo-xrlLMT0PR8u-4P4xs21oRr8Y'}},
           {attributes: {name: 'description', content: 'Vue.js template with JavaScript'}},
-          {attributes: {property: 'og:title', content: 'Template №2'}},
-          {attributes: {property: 'twitter:title', content: 'Template №2'}},
+          {attributes: {property: 'og:title', content: 'JS Template'}},
+          {attributes: {property: 'twitter:title', content: 'JS Template'}},
           {attributes: {property: 'og:description', content: 'Vue.js template with JavaScript'}},
           {attributes: {property: 'twitter:description', content: 'Vue.js template with JavaScript'}},
           {attributes: {property: 'og:image', content: 'https://vue-template-js.vercel.app/assets/ogimage/bmp/image_all.jpg'}},
@@ -76,7 +76,7 @@ module.exports = {
         prefix: 'assets/favicon/', // Этот префикс для файла index.html, чтобы правильно прописать пути иконок с сервера!
         manifest: './src/assets/manifest/manifest.webmanifest',
         favicons: {
-          appName: 'Template №2',
+          appName: 'JS Template',
           appDescription: 'Vue.js template with JavaScript',
           developerName: 'Zorger',
           developerURL: null

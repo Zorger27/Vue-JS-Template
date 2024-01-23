@@ -5,9 +5,9 @@ export default {
   name: 'PageNotFound',
   mixins: [openGraphMixin],
   mounted() {
-    const title = 'Page NOT Found';
-    const metaDescription = 'Page NOT Found';
-    const description = 'Page NOT Found';
+    const title = 'JS Template - Page NOT Found';
+    const metaDescription = 'Vue.js template with JavaScript';
+    const description = 'JS Template - Page NOT Found';
     const imageUrl = 'https://vue-template-js.vercel.app/assets/ogimage/bmp/image_404.jpg';
     const url = 'https://vue-template-js.vercel.app';
 

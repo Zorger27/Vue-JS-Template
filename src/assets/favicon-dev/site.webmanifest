@@ -1,6 +1,6 @@
 {
-    "name": "Template №2",
-    "short_name": "Template №2",
+    "name": "JS Template",
+    "short_name": "JS Template",
     "icons": [
         {
             "src": "./public/assets/favicon-dev/android-chrome-192x192.png",

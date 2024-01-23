@@ -6,14 +6,15 @@ export default {
   mixins: [openGraphMixin],
   components: {},
   mounted() {
+    const mainTitle = 'JS - Project № 2';
     const title = 'JS Template - Project № 2';
     const metaDescription = 'Vue.js template with JavaScript';
     const description = 'JS Template - Project № 2';
     const imageUrl = 'https://vue-template-js.vercel.app/assets/ogimage/bmp/project2.jpg';
     const url = 'https://vue-template-js.vercel.app/project2';
 
-    // Dynamically set open graph tags
     this.setOpenGraphTags(metaDescription, title, description, imageUrl, url);
+    this.setPageTitle(mainTitle);
   },
   methods: {},
 };

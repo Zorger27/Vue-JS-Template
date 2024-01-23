@@ -5,14 +5,15 @@ export default {
   name: 'PageNotFound',
   mixins: [openGraphMixin],
   mounted() {
+    const mainTitle = 'Page NOT Found';
     const title = 'JS Template - Page NOT Found';
     const metaDescription = 'Vue.js template with JavaScript';
     const description = 'JS Template - Page NOT Found';
     const imageUrl = 'https://vue-template-js.vercel.app/assets/ogimage/bmp/image_404.jpg';
     const url = 'https://vue-template-js.vercel.app';
 
-    // Dynamically set open graph tags
     this.setOpenGraphTags(metaDescription, title, description, imageUrl, url);
+    this.setPageTitle(mainTitle);
   },
   components: {},
   methods: {},

@@ -17,14 +17,15 @@ export default {
     };
   },
   mounted() {
-    const title = 'About this JS Project';
+    const mainTitle = 'About these JS Projects';
+    const title = 'About these JS Projects';
     const metaDescription = 'Vue.js template with JavaScript';
-    const description = 'About this JS Project';
+    const description = 'About these JS Projects';
     const imageUrl = 'https://vue-template-js.vercel.app/assets/ogimage/bmp/about.jpg';
     const url = 'https://vue-template-js.vercel.app/about';
 
-    // Dynamically set open graph tags
     this.setOpenGraphTags(metaDescription, title, description, imageUrl, url);
+    this.setPageTitle(mainTitle);
   },
   methods: {
     changeView() {

@@ -1,8 +1,20 @@
 <script>
+import {openGraphMixin} from "@/assets/ogimage/openGraphMixin";
 
 export default {
   name: 'Project3',
+  mixins: [openGraphMixin],
   components: {},
+  mounted() {
+    const title = 'Template №2 - Project № 3';
+    const metaDescription = 'Template №2';
+    const description = 'Template №2 - Project № 3';
+    const imageUrl = 'https://vue-template-js.vercel.app/assets/ogimage/bmp/project3.jpg';
+    const url = 'https://vue-template-js.vercel.app/project3';
+
+    // Dynamically set open graph tags
+    this.setOpenGraphTags(metaDescription, title, description, imageUrl, url);
+  },
   methods: {},
 };
 </script>

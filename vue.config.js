@@ -61,8 +61,8 @@ module.exports = {
           {attributes: {property: 'twitter:title', content: 'Template №2'}},
           {attributes: {property: 'og:description', content: 'Vue.js template with JavaScript'}},
           {attributes: {property: 'twitter:description', content: 'Vue.js template with JavaScript'}},
-          {attributes: {property: 'og:image', content: 'https://vue-template-js.vercel.app/assets/ogimage/image_all.jpg'}},
-          {attributes: {property: 'twitter:image', content: 'https://vue-template-js.vercel.app/assets/ogimage/image_all.jpg'}},
+          {attributes: {property: 'og:image', content: 'https://vue-template-js.vercel.app/assets/ogimage/bmp/image_all.jpg'}},
+          {attributes: {property: 'twitter:image', content: 'https://vue-template-js.vercel.app/assets/ogimage/bmp/image_all.jpg'}},
           {attributes: {property: 'og:url', content: 'https://vue-template-js.vercel.app'}},
           {attributes: {property: 'og:type', content: 'website'}},
           {attributes: {property: 'twitter:card', content: 'summary_large_image'}}

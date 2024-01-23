@@ -7,9 +7,9 @@ export default {
   components: {},
   mounted() {
     const mainTitle = 'JS - Project № 2';
-    const title = 'JS Template - Project № 2';
+    const title = 'JS template - Project № 2';
     const metaDescription = 'Vue.js template with JavaScript';
-    const description = 'JS Template - Project № 2';
+    const description = 'JS template - Project № 2';
     const imageUrl = 'https://vue-template-js.vercel.app/assets/ogimage/bmp/project2.jpg';
     const url = 'https://vue-template-js.vercel.app/project2';
 

@@ -9,7 +9,7 @@ export default {
     const mainTitle = 'JS - Project № 2';
     const title = 'JS template - Project № 2';
     const metaDescription = 'Vue.js template with JavaScript';
-    const description = 'JS template - Project № 2';
+    const description = 'Vue.js template with JavaScript - Project № 2';
     const imageUrl = 'https://vue-template-js.vercel.app/assets/ogimage/bmp/project2.jpg';
     const url = 'https://vue-template-js.vercel.app/project2';
 

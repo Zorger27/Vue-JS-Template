@@ -9,7 +9,7 @@ export default {
   },
   data() {
     return {
-      getHeaderLogoImage: require('@/assets/img/header-logo.svg'),
+      getHeaderLogoImage: require('@/assets/img/footer-logo.svg'),
       showMenu: false,
     };
   },
@@ -74,7 +74,7 @@ header {
   }
 
   .header-logo {
-    margin: 3px;
+    margin: 0 3px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
@@ -85,9 +85,10 @@ header {
     .logo {
       grid-area: logo;
       align-items: center;
-      margin-top: 0.3rem;
+      //margin-top: 0.3rem;
       align-self: center;
       justify-self: left;
+      display: flex;
       img {
         width: 4rem;
         height: 4rem;

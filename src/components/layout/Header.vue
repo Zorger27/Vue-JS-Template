@@ -87,7 +87,7 @@ header {
       align-items: center;
       //margin-top: 0.3rem;
       align-self: center;
-      justify-self: left;
+      justify-self: center;
       display: flex;
       img {
         width: 4rem;
@@ -150,23 +150,21 @@ header {
           color: red;
         }
       }
-    }
+      .language {
+        align-self: center;
+        justify-self: right;
+        border: 1px solid transparent;
+        border-radius: 5px;
+        font-weight: bold;
+        font-size: medium;
+        outline: 0 !important;
+        appearance: none;
+      }
 
-    .language {
-      align-self: center;
-      justify-self: right;
-      border: 1px solid transparent;
-      border-radius: 5px;
-      font-weight: bold;
-      font-size: medium;
-      outline: 0 !important;
-      appearance: none;
-    }
-
-    .logo {
-      grid-area: logo;
-      justify-self: right;
-      //margin-right: -0.8rem;
+      .logo {
+        grid-area: logo;
+        justify-self: right;
+      }
     }
   }
   .menu {

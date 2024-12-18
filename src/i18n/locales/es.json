@@ -31,9 +31,9 @@
   "about": {
     "title": "Mis JavaScript Proyectos",
     "more01": "Más información...",
-    "more02": "Esta es la plantilla de desarrollo inicial en Vue.js + JavaScript con internacionalización, enrutadores y almacenamiento.",
-    "more03": "Preparado para conexión a Google Analytics y Google Search Console. La plantilla está personalizada y optimizada para la tecnología PWA (Progressive Web App).",
-    "more04": "¡Hay MUCHAS cosas interesantes aquí! \uD83D\uDE09\uD83E\uDD13",
+    "more02": "\uD83C\uDF10 Plantilla de inicio conveniente y flexible para crear aplicaciones web de una sola página (SPA) modernas.",
+    "more03": "✨ Este sitio minimalista pero funcional soporta tres idiomas (ucraniano, inglés, español) y está perfectamente adaptado para su uso en cualquier dispositivo: desde teléfonos inteligentes hasta computadoras de escritorio. \uD83D\uDCCA La plantilla ya está lista para conectar Google Analytics y Google Search Console, lo que facilita el análisis y el seguimiento del rendimiento.",
+    "more04": "\uD83D\uDE80 Con su estructura intuitiva y la flexibilidad del código, ¡esta plantilla es perfecta tanto para iniciar nuevos proyectos rápidamente como para desarrollar aplicaciones web complejas! \uD83C\uDF1F",
     "more05": "¡Bienvenido! \uD83E\uDD29\uD83D\uDE0E",
     "technologies": "Tecnologías",
     "name": "Nombre",

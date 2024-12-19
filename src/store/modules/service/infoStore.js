@@ -4,7 +4,7 @@ const state = {
       {
         id: 1,
         title: "Vue.js",
-        version: "3.5.13",
+        version: "3.4.38",
         url: "https://v3.ru.vuejs.org"
       },
       {
